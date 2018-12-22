@@ -1,0 +1,369 @@
+/*navbar starts*/
+  .nav-content{
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    display: flex !important;
+    max-width: 1012px;
+    margin-top: 7px;
+  }
+  .nav-content li{
+    display: inline;
+    margin-left: 22px;
+  }
+  .nav-content ul{
+    padding-left: 0px !important;
+    margin-top: 9px !important;
+  }
+  .bg-dark{
+   background-color: #23292e !important;
+  }
+  .nav-input{
+    min-height: 30px;
+    font-size: 13px;
+    background-color: hsla(0,0%,100%,0.125);
+    border: 0;
+    box-shadow: none;
+    font-weight: 400;
+    max-width: 100%;
+    vertical-align: middle;
+    width: 300px;
+    padding: 6px 8px;
+    border-radius: 3px;
+    margin-left: 2.5em;
+    color: #6b6f72 !important;
+  }
+  #navbar-or{
+    color: #586069!important;
+    font-size: 16px !important;
+  }
+  .input-img{
+    position: absolute;
+    right: 9px;
+    top: 1px;
+  }
+  .input-container{
+    position: relative;
+  }
+/*navbar ends*/
+
+/*banner starts*/
+  .banner-container {
+    color: hsla(0,0%,100%,0.6);
+    background: url(../Images/simple-codelines.svg),#2b3137;
+    background-position: center 2%;
+    background-size: cover;
+    padding-top: 64px!important;
+    padding-bottom: 64px!important;
+  }
+  .built-for-development{
+    font-size: 64px!important;
+    font-weight: 500;
+    line-height: 1!important;
+    margin-bottom: 16px!important;
+    color: #fff;
+    text-align: left!important;
+    margin-top: 17%;
+  }
+  .banner-second-container{
+    max-width: 1012px !important;
+  }
+  .banner-sub-text{
+    font-size: 23px!important;
+    font-weight: normal!important;
+  }
+  .banner-sub-text-highlighter{
+    border-bottom: 1px solid hsla(0,0%,100%,0.125);
+    color: #fff !important;
+  }
+  .banner-form{
+    padding: 24px 24px 10px 24px !important;
+    color: #586069!important;
+    background-color: #fafbfc!important;
+    border-radius: 3px!important;
+  }
+
+  .banner-form label{
+    color: #586069!important;
+    font-size: 14px;
+  }
+
+  .banner-form input{
+    width: 100%;
+    min-height: 46px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: #fafbfc;
+    border: 1px solid #d1d5da;
+    box-shadow: inset 0 1px 2px rgba(27,31,35,0.075);
+    margin-bottom: 15px;
+  }
+
+  .banner-form input:focus{
+    background-color: #fff;
+    border: 1px solid blue;
+    box-shadow: none;
+  }
+
+  .banner-form ::placeholder {
+    color: #919496;
+    font-weight: normal;
+  }
+
+  .banner-form p{
+    margin-top: -10px;
+    margin-bottom: 15px;
+    font-size: 13px;
+    color: #6a737d;
+  }
+
+  .banner-form button{
+    padding: 16px 24px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    border: 0;
+    border-radius: 3px;
+    transition: 0.2s;
+    background-color: #2ebc4f;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .terms{
+    color: #0366d6;
+  }
+
+  .form-end{
+    text-align: center;
+    font-size: 12px !important;
+  }
+
+  .row{
+    margin: 0 !important;
+  }
+
+  .github-universe{
+
+  }
+
+  .bg-black{
+    background-color: #10181e;
+    color: #fff;
+  }
+
+  .banner-sub-container-img{
+    width: 64px;
+    height: 73px;
+  }
+
+  .github-universe-img-container{
+    padding: 40px 49px;
+  }
+
+  .get-ticket{
+    color: #79b8ff!important;
+    font-weight: 500;
+  }
+
+  .combination-of-creativity{
+    padding: 53px 0px 30px 40px !important;
+  }
+
+  .hexagon{
+    overflow: hidden;
+  }
+
+  .hexagon img{
+    position: absolute;
+    margin-top: 49%;
+    margin-left: 22%;
+  }
+
+  .padr0{
+    padding-right: 0;
+  }
+
+  .padl0{
+    padding-left: 0;
+  }
+
+  .enterprise-text{
+    font-size: 32px !important;
+  }
+
+  .enterprise-container{
+    /*text-align: center;
+    max-width: 1012px;
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+    margin: auto;*/
+  }
+
+  .enterprise-sub-container{
+    padding: 40px 26px!important;
+    text-align: center;
+    width: 790px;
+  }
+
+  .enterprise-img-container{
+    width: 310px;
+    padding-left: 2%;
+  }
+
+  .banner-github-enterprise{
+    background: url(./Images/enterprise.png);
+    display: inline-flex;
+    padding-top: 16px;
+  }
+
+  .github-enterprise-link{
+    color: #1277eb;
+    text-decoration: none!important;
+    box-shadow: 0 1px 0 0 rgba(18,119,235,0.5);
+  }
+
+  .contact-sales{
+    padding: 16px 24px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+    background-color: #1277eb;
+    border: 0;
+    border-radius: 3px;
+    display: inline-block;
+  }
+
+  .github-users-container{
+    max-width: 1012px;
+    margin:auto;
+    color: #6a737d!important;
+  }
+
+  .github-users-container h3{
+    font-size: 20px !important;
+    text-align: center;
+  }
+
+  .github-user-img{
+    margin-top: 16px;
+  }
+
+  .pad80{
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  .github-for-team-inner-container{
+    text-align: center;
+  }
+
+  .github-for-team-inner-container h6{
+    font-family: "SFMono-Regular",Consolas,"Liberation Mono",Menlo,Courier,monospace;
+    color: #586069!important;
+  }
+
+  .github-for-team-inner-container h2{
+    font-size: 48px!important;
+    line-height: 1.25!important;
+    margin-top: 16px !important;
+  }
+
+  .github-for-team-inner-container p{
+    font-size: 21px!important;
+    text-align: center!important;
+    width: 600px;
+    margin: auto;
+    color: #586069;
+    margin-bottom: 44px!important;
+  }
+
+  .Bump-link-symbol{
+    display: inline-block;
+    transition: 0.2s;
+    transform: translateX(0);
+    position: absolute;
+    margin-left: 5px;
+  }
+
+  /*.sign-up-team{
+    color: #1277eb!important;
+    background-color: transparent!important;
+    box-shadow: 0 0 0 1px rgba(18,119,235,0.5) inset;
+    padding: 20px 32px;
+    font-size: 16px;
+  }*/
+
+  a.sign-up-team{
+    text-decoration: none;
+    color: #1277eb!important;
+    background-color: transparent!important;
+    box-shadow: 0 0 0 1px rgba(18,119,235,0.5) inset;
+    padding: 20px 50px 20px 32px;
+    font-size: 16px;
+    border: 0;
+    border-radius: 3px;
+    transition: 0.2s;
+    font-weight: 500;
+    position: relative;
+  }
+
+  .github-for-team-inner-container a:hover > .Bump-link-symbol{
+    padding-left: 3px;
+  }
+
+  .github-for-team-inner-container a:hover{
+    box-shadow: 0 0 0 1px #1277eb inset;
+  }
+
+  .align-right{
+    text-align: right;
+  }
+
+  .robo-img{
+    width: 681px;
+    height: 633px;
+  }
+
+  .github-advice-overall-container h3{
+    color: #24292e!important;
+    font-size: 22px;
+    font-weight: 400;
+  }
+
+  .github-advice-overall-container p{
+    width: 363px;
+    font-size: 14px;
+  }
+
+  .better-code-panel{
+    border: solid 1px transparent;
+    transition: box-shadow 0.3s,border-color 0.3s;
+    padding: 24px;
+    width: 486px;
+  }
+
+  .better-code-panel:hover{
+    border-color: #d1d5da;
+    box-shadow: 0 1px 15px rgba(27,31,35,0.15);
+  }
+
+  #img1,#img2,#img3{
+    position: absolute;
+    right: 105%;
+    top: -9%;
+    display: none;
+  }
+
+  #panel1:hover > #img1,#panel2:hover > #img2,#panel3:hover > #img3{
+    display: block !important;
+  }
+
+/*banner ends*/
+
+
+
+
+
+
+
